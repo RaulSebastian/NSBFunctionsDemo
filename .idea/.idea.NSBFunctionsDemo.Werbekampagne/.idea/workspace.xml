@@ -7,7 +7,10 @@
     <projectFile>NSBFunctionsDemo.WebShop.Functions/NSBFunctionsDemo.WebShop.Functions.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1643aa5-f07d-45e5-be15-6fb058cc0c00" name="Default Changelist" comment="" />
+    <list default="true" id="d1643aa5-f07d-45e5-be15-6fb058cc0c00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NSBFunctionsDemo.Werbekampagne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NSBFunctionsDemo.Werbekampagne/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,8 @@
         <option value="$PROJECT_DIR$/NSBFunctionsDemo.Werbekampagne.API/appsettings.Development.json" />
         <option value="$PROJECT_DIR$/NSBFunctionsDemo.WebShop.Functions/local.settings.json" />
         <option value="$PROJECT_DIR$/NSBFunctionsDemo.Printmedien.Functions/local.settings.json" />
+        <option value="$PROJECT_DIR$/NSBFunctionsDemo.Printmedien.Functions/Startup.cs" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -158,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621946265434</updated>
       <workItem from="1621946266209" duration="960000" />
-      <workItem from="1621970464143" duration="611000" />
+      <workItem from="1621970464143" duration="1540000" />
     </task>
     <servers />
   </component>
