@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Repos\NSBFunctionsDemo" t="IncludeFlat">
+      <e p="NSBFunctionsDemo.Printmedien.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NSBFunctionsDemo.Printmedien.Data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Printmedien.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IPrintmedienRepository.cs" t="Include" />
+          <e p="PrintmedienRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Printmedien.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Druckauftrag.cs" t="Include" />
+          <e p="DruckauftragStatus.cs" t="Include" />
+        </e>
+        <e p="NSBFunctionsDemo.Printmedien.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="NSBFunctionsDemo.Printmedien.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Printmedien.Functions" t="IncludeRecursive">
+        <e p="AzureServiceBusTriggerFunction.cs" t="Include" />
+        <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+        <e p="DruckauftragAblehnenHttpTrigger.cs" t="Include" />
+        <e p="DruckauftragBestaetigenHttpTrigger.cs" t="Include" />
+        <e p="Handler" t="Include">
+          <e p="DruckauftragAngefordertHandler.cs" t="Include" />
+          <e p="FordereDruckauftragAnHandler.cs" t="Include" />
+          <e p="StorniereDruckauftragHandler.cs" t="Include" />
+        </e>
+        <e p="host.json" t="Include" />
+        <e p="local.settings.json" t="Include" />
+        <e p="NSBFunctionsDemo.Printmedien.Functions.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Printmedien.Functions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="NSBFunctionsDemo.Printmedien.Messages" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DruckauftragAngefordert.cs" t="Include" />
+        <e p="DruckauftragBereitsAngefordert.cs" t="Include" />
+        <e p="DruckauftragBestaetigt.cs" t="Include" />
+        <e p="DruckauftragNichtBestaetigt.cs" t="Include" />
+        <e p="DruckauftragStorniert.cs" t="Include" />
+        <e p="DruckauftragZuKurzfristig.cs" t="Include" />
+        <e p="FordereDruckauftragAn.cs" t="Include" />
+        <e p="NSBFunctionsDemo.Printmedien.Messages.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Printmedien.Messages.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StorniereDruckauftrag.cs" t="Include" />
+      </e>
+      <e p="NSBFunctionsDemo.WebShop.Functions" t="IncludeRecursive">
+        <e p="AzureServiceBusTriggerFunction.cs" t="Include" />
+        <e p="bin\Debug\netcoreapp3.1\bin" t="ExcludeRecursive" />
+        <e p="Handler" t="Include">
+          <e p="FordereWerbungAnHandler.cs" t="Include" />
+          <e p="StorniereWerbungHandler.cs" t="Include" />
+          <e p="WerbungAngefordertHandler.cs" t="Include" />
+        </e>
+        <e p="host.json" t="Include" />
+        <e p="local.settings.json" t="Include" />
+        <e p="NSBFunctionsDemo.WebShop.Functions.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.WebShop.Functions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="NSBFunctionsDemo.WebShop.Messages" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FordereWerbungAn.cs" t="Include" />
+        <e p="NSBFunctionsDemo.WebShop.Messages.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.WebShop.Messages.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="StorniereWerbung.cs" t="Include" />
+        <e p="WerbungAngefordert.cs" t="Include" />
+        <e p="WerbungBestaetigt.cs" t="Include" />
+        <e p="WerbungNichtMoeglich.cs" t="Include" />
+        <e p="WerbungStorniert.cs" t="Include" />
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.API" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="StatusController.cs" t="Include" />
+          <e p="WerbekampagnenController.cs" t="Include" />
+        </e>
+        <e p="CosmosDbConfigurator.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ApiModelAttribute.cs" t="Include" />
+          <e p="NeueWerbekampagne.cs" t="Include" />
+          <e p="WerbekampagneRahmendaten.cs" t="Include" />
+          <e p="WerbemedienFestlegen.cs" t="Include" />
+        </e>
+        <e p="NSBFunctionsDemo.Werbekampagne.API.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Werbekampagne.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WerbekampagnenManagement" t="Include">
+          <e p="WerbekampagneLifecycleSaga.cs" t="Include" />
+          <e p="WerbekampagneLifecycleSagaData.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.Client" t="IncludeRecursive">
+        <e p="_Imports.razor" t="Include" />
+        <e p="App.razor" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NSBFunctionsDemo.Werbekampagne.Client.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="NSBFunctionsDemo.Werbekampagne.Client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="Counter.razor" t="Include" />
+          <e p="FetchData.razor" t="Include" />
+          <e p="Index.razor" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="WerbekampagneClient - Web Deploy.pubxml" t="Include" />
+          </e>
+          <e p="ServiceDependencies" t="Include">
+            <e p="WerbekampagneClient - Web Deploy" t="Include">
+              <e p="profile.arm.json" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Shared" t="Include">
+          <e p="MainLayout.razor" t="Include" />
+          <e p="MainLayout.razor.css" t="Include" />
+          <e p="NavMenu.razor" t="Include" />
+          <e p="NavMenu.razor.css" t="Include" />
+          <e p="SurveyPrompt.razor" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="app.css" t="Include" />
+            <e p="bootstrap" t="Include">
+              <e p="bootstrap.min.css" t="Include" />
+              <e p="bootstrap.min.css.map" t="Include" />
+            </e>
+            <e p="open-iconic" t="Include">
+              <e p="font" t="Include">
+                <e p="css" t="Include">
+                  <e p="open-iconic-bootstrap.min.css" t="Include" />
+                </e>
+                <e p="fonts" t="Include">
+                  <e p="open-iconic.eot" t="Include" />
+                  <e p="open-iconic.otf" t="Include" />
+                  <e p="open-iconic.svg" t="Include" />
+                  <e p="open-iconic.ttf" t="Include" />
+                  <e p="open-iconic.woff" t="Include" />
+                </e>
+              </e>
+              <e p="FONT-LICENSE" t="Include" />
+              <e p="ICON-LICENSE" t="Include" />
+              <e p="README.md" t="Include" />
+            </e>
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="sample-data" t="Include">
+            <e p="weather.json" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NSBFunctionsDemo.Werbekampagne.Data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Werbekampagne.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IWerbekampagnenRepository.cs" t="Include" />
+          <e p="WerbekampagnenRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Freigabestatus.cs" t="Include" />
+          <e p="Kampagnenstatus.cs" t="Include" />
+          <e p="Statuswechsel.cs" t="Include" />
+          <e p="Werbekampagne.cs" t="Include" />
+          <e p="Werbemedien.cs" t="Include" />
+          <e p="Werbemedium.cs" t="Include" />
+        </e>
+        <e p="NSBFunctionsDemo.Werbekampagne.Domain.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="NSBFunctionsDemo.Werbekampagne.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.Messages" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NSBFunctionsDemo.Werbekampagne.Messages.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="NSBFunctionsDemo.Werbekampagne.Messages.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Statuswechsel" t="Include">
+          <e p="Abbrechen.cs" t="Include" />
+          <e p="Beenden.cs" t="Include" />
+          <e p="FreigabeAnfordern.cs" t="Include" />
+          <e p="Freigeben.cs" t="Include" />
+          <e p="Loeschen.cs" t="Include" />
+          <e p="Starten.cs" t="Include" />
+          <e p="Stornieren.cs" t="Include" />
+          <e p="WerbekampagneAbgebrochen.cs" t="Include" />
+          <e p="WerbekampagneBeendet.cs" t="Include" />
+          <e p="WerbekampagneFordertFreigabeAn.cs" t="Include" />
+          <e p="WerbekampagneFreigegeben.cs" t="Include" />
+          <e p="WerbekampagneGestartet.cs" t="Include" />
+          <e p="WerbekampagneStorniert.cs" t="Include" />
+        </e>
+        <e p="WerbekampagneAngelegt.cs" t="Include" />
+        <e p="WerbekampagneGeloescht.cs" t="Include" />
+        <e p="WerbekampagnenDatenAktualisiert.cs" t="Include" />
+        <e p="WerbemedienAktualisiert.cs" t="Include" />
+      </e>
+      <e p="NSBFunctionsDemo.Werbekampagne.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Raul\.nuget\packages\microsoft.azure.cosmos\3.18.0\contentFiles\any\netstandard2.0\ThirdPartyNotice.txt" t="Include" />
+    <e p="C:\Users\Raul\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Raul\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_NSBFunctionsDemo.Werbekampagne.1023900389.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NServiceBus.Extensions.Hosting" Version="1.*" />
+    <PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.0.6" />
+    <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.3.0" />
+    <PackageReference Include="NServiceBus.Persistence.AzureTable" Version="3.1.0" />
+    <PackageReference Include="NServiceBus.SagaAudit" Version="3.0.1" />
+    <PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="1.9.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NSBFunctionsDemo.Printmedien.Messages\NSBFunctionsDemo.Printmedien.Messages.csproj" />
+    <ProjectReference Include="..\NSBFunctionsDemo.WebShop.Messages\NSBFunctionsDemo.WebShop.Messages.csproj" />
+    <ProjectReference Include="..\NSBFunctionsDemo.Werbekampagne.Data\NSBFunctionsDemo.Werbekampagne.Data.csproj" />
+    <ProjectReference Include="..\NSBFunctionsDemo.Werbekampagne.Domain\NSBFunctionsDemo.Werbekampagne.Domain.csproj" />
+    <ProjectReference Include="..\NSBFunctionsDemo.Werbekampagne.Messages\NSBFunctionsDemo.Werbekampagne.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

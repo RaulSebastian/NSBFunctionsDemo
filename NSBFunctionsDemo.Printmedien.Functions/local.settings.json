@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "AzureWebJobsServiceBus": "<Endpoint=sb://AZURESERVICEBUSADRESS.servicebus.windows.net/;KEY>",
+        "NSERVICEBUS_LICENSE": "<NSERVICEBUS_LICENSE>",
+        "CosmosDb_ConnectionString": "<CosmosDb_ConnectionString>",
+        "CosmosDb_DatabaseName": "<CosmosDb_DatabaseName>",
+        "CosmosDb_ContainerName": "<CosmosDb_ContainerName>"
+    }
+}
